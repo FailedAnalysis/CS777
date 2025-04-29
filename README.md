@@ -5,6 +5,9 @@ This project aims to process and analyze large-scale gene expression data using 
 Project Objective
 The core objective of the project is to develop an efficient and accurate classification model based on cell gene expression profiles for identifying lung cancer cells. This has potential value for supporting biomedical research and disease diagnosis.
 
+Data Used
+The data from this project comes from publicly available single-cell RNA sequencing data from lung cancers. The data represents how well each gene is activated in each cell. Based on those gene number activations or "expressions" we could predict if a cell is cancerous or normal. Cancerous cells have associated genes with them, and normal cells have different genes associated with them. So, theoretically, if we have gene expression data for a cell, we could predict if this cell is cancerous or normal, based on the previous data. Cells already had labels associated with them based on previous bioinformatics research. Overall, we had around 120,000 cells and around 40,000 genes in the dataset.
+
 Project Process
 We built a data processing and model training pipeline using the PySpark framework. In this pipeline, we experimented with five different classifiers:
 
