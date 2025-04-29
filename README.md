@@ -1,4 +1,5 @@
 # CS777TP
+By Azamat Khanbabaev and Zengbo Wang
 Lung Cancer Cell Classification based on Gene Expression Data
 This project aims to process and analyze large-scale gene expression data using Apache Spark, building machine learning models to classify whether cells are lung cancer cells. We explored and implemented various classifiers to evaluate their performance on this task.
 
