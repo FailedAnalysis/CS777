@@ -40,15 +40,13 @@ Therefore, while our Self-built MLP might be feasible on a single machine with a
 Project Results
 Despite the Self-built MLP training not being successful, we achieved satisfactory results with the other classifiers:
 
-Logistic Regression: Achieved 98% accuracy.
+1. Logistic Regression: Achieved 98% accuracy.
 
-Random Forest: Achieved 98% accuracy.
+2. Random Forest: Achieved 98% accuracy.
 
-Gradient Boosted Trees Classifier (GBTC): Achieved 98% accuracy.
+3. Gradient Boosted Trees Classifier (GBTC): Achieved 98% accuracy.
 
-MLlib Multilayer Perceptron Classifier: Achieved 99% accuracy.
-
-The MLlib MLP classifier performed best, achieving 99% accuracy, benefiting from its distributed optimization algorithms and good support for neural network structures.
+4. MLlib Multilayer Perceptron Classifier: Achieved 99% accuracy.
 
 Conclusion and Future Work
 This project successfully utilized Apache Spark to process large-scale gene expression data and achieved high classification accuracy with multiple classifiers. MLlib's MLP classifier demonstrated strong capabilities on this task.
